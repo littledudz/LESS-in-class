@@ -1,0 +1,17 @@
+ul#friendlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+
+
+    li.friend {
+        text-decoration: underline;
+        text-transform: uppercase;
+        color: red;
+ 
+ // this "&" stands in for li.friend //       
+        &.green {
+            color: green;
+        }
+    } 
+}
