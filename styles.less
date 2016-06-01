@@ -1,9 +1,15 @@
 @import 'variables.less';
+@import 'typograpghy.less';
+@import 'mixin.less';
 
 ul#friendlist {
     list-style-type: none;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    font-family: @fancy-font; 
+    background-color: blue;
+    padding: 1em;
+    .roundedCorners(5px);
 
 
     li.friend {
